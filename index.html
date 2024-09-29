@@ -1,0 +1,51 @@
+<!Doctype Html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation Demo</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+        <header class="header">
+            <div class="logo-left">
+            <div class="logo-container" id="logoContainer">
+                  <div class="white-background"></div>
+                  <img
+                    src="./assets/logo.png"
+                    alt="Logo"
+                    class="logo"
+                    id="logo"
+                  />
+                </div>
+               </div>
+              </header>
+               
+
+      <div class="left" id="leftDiv">
+        <div class="text">
+            <p class="heading">Welcome Back!</p>
+            <p class="signin-text">Sign In To Your Account</p>
+           </div>
+           <div class="inputs">
+            <input class="feature" type="text" placeholder="Online ID"> 
+            <input class="feature" type="password" placeholder="Password">
+            <div class="check">
+                <input type="checkbox" name="remember me" id="tick">
+                <label for="tick">Remember Me</label>
+            </div>
+            <button class="login-btn">Log In</button>
+           </div>
+           <footer>
+              <div class="links">
+                  <a class="forgot-id-link" href="#">Forgot ID</a>
+                  <a href="#">Forgot Password</a>
+              </div>
+           </footer>
+      </div>
+      <div class="right" id="rightDiv"></div>
+    </div>
+<script src="script.js"></script>
+  </body>
+</html>
